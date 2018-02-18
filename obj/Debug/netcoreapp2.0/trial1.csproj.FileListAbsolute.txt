@@ -1,0 +1,11 @@
+D:\DEV\TRIAL\DotNetCore\ISTW\trial1\bin\Debug\netcoreapp2.0\trial1.deps.json
+D:\DEV\TRIAL\DotNetCore\ISTW\trial1\bin\Debug\netcoreapp2.0\trial1.runtimeconfig.json
+D:\DEV\TRIAL\DotNetCore\ISTW\trial1\bin\Debug\netcoreapp2.0\trial1.runtimeconfig.dev.json
+D:\DEV\TRIAL\DotNetCore\ISTW\trial1\bin\Debug\netcoreapp2.0\trial1.dll
+D:\DEV\TRIAL\DotNetCore\ISTW\trial1\bin\Debug\netcoreapp2.0\trial1.pdb
+D:\DEV\TRIAL\DotNetCore\ISTW\trial1\obj\Debug\netcoreapp2.0\trial1.csprojResolveAssemblyReference.cache
+D:\DEV\TRIAL\DotNetCore\ISTW\trial1\obj\Debug\netcoreapp2.0\trial1.csproj.CoreCompileInputs.cache
+D:\DEV\TRIAL\DotNetCore\ISTW\trial1\obj\Debug\netcoreapp2.0\trial1.AssemblyInfoInputs.cache
+D:\DEV\TRIAL\DotNetCore\ISTW\trial1\obj\Debug\netcoreapp2.0\trial1.AssemblyInfo.cs
+D:\DEV\TRIAL\DotNetCore\ISTW\trial1\obj\Debug\netcoreapp2.0\trial1.dll
+D:\DEV\TRIAL\DotNetCore\ISTW\trial1\obj\Debug\netcoreapp2.0\trial1.pdb

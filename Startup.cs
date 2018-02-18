@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using trial1.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace trial1
 {
@@ -21,6 +23,7 @@ namespace trial1
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<TruckDbContext>(options =>options.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
             services.AddMvc();
         }
 
