@@ -1,0 +1,58 @@
+﻿@model IEnumerable<trial1.Models.Kirim>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.KaryawanNIK)
+                </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Truck)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.KaryawanNIK)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Truck.ID)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.KirimID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.KirimID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.KirimID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+
+
+<div class="card-columns">
+@foreach (var item in Model) {
+    <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+  <div class="card-header">@Html.DisplayFor(modelItem => item.Truck.ID)</div>
+  <div class="card-body">
+    <h5 class="card-title">PT MKM</h5>
+    <p class="card-text">Pipa</p>
+    <p class="card-text">Tonase = 15 Ton</p>
+    <p class="card-text">@Html.DisplayFor(modelItem => item.KaryawanNIK)</p>
+  </div>
+</div>
+}
+</div>
